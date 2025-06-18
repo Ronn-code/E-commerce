@@ -1,0 +1,350 @@
+.container{
+    height: 100vh;
+    font-family: "inter";
+}
+.hero{
+    height: 78vh;
+    background: #e2e2e2;
+    background-position: center;
+    background-size: cover;
+    border: none;
+    background-repeat: no-repeat;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 2rem;
+    background: white;
+    border-radius: 10px;
+}.top .name{
+    display: flex;
+}
+.top .name h2{
+    font-size: 1.4rem;
+    color: rgb(83, 32, 32);
+    margin-left: 2rem;
+}
+.steps{
+    color: #000;
+}
+#menu-icon{
+    display: none;
+    cursor: pointer;
+    color: black;
+    font-size: 1.8rem;
+    margin-right: 1rem;
+}
+.navbar{
+    display: flex;
+    gap: 1.4rem;
+    align-items: center;
+}
+.top .navbar a {
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;   
+}
+.top .navbar a:hover{
+    color: rgb(83, 32, 32);
+    transition: all 600ms ease;
+}
+.top .icons{
+    margin-right: 2rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+.top .icons span{
+    color: rgb(39, 39, 39);
+}
+.insights{
+    display: flex;
+    gap: 1rem;
+    margin-top: 5rem;
+    margin-left: 20rem;
+    
+}
+.insights-details{
+    border: none;
+    background: white;
+    border-radius: 15px;
+    padding: 0.6rem;
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: rgb(12, 76, 160);
+    
+}
+.insights-details h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #000;
+}
+.hero-body{
+    text-align: center;
+    margin-top: 5rem;
+}
+.hero-body h1{
+    font-size: 1.8rem;
+    color: rgb(66, 2, 2);
+    margin-top: 3.6rem;
+    font-weight: 500;
+}
+.hero-body p{
+    color: black;
+    font-size: 1.2rem;
+    margin-top: 1.5rem;
+}
+#collection-btn{
+    margin-top: 2rem;
+    background: rgb(83, 32, 32);
+    height: 3rem;
+    width: 12rem;
+    font-size: 1rem;
+    border-radius: 10px;
+    color: white;
+    font-size: 0.8rem;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgb(49, 19, 19);
+     transition: all 1s ease;
+}
+#collection-btn:hover{
+    border:2px solid rgb(83, 32, 32);
+    color: black;
+    background: #e2e2e2;
+    box-shadow: none;
+}
+
+
+.home-body, .home-body2{
+    margin-top: 4rem;
+}
+.home-body h2, .home-body2 h2{
+    margin-left: 1.5rem;
+    color: rgb(83, 32, 32);
+    font-size: 1.2rem;
+}
+.arrivals-list{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    gap: 1rem;
+    list-style: none;
+}
+.arrival-items{
+    height: 16rem;
+    width: 16rem;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 1rem;
+    transition: all 1000ms ease;
+}
+.arrival-items:hover{
+    background: rgb(228, 228, 228);
+    border-radius: 16px;
+    box-shadow: 2px 2px 3px #000;
+}
+.arrival-item-image{
+    height: 10rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.arrival-item-content h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.arrival-item-content a{
+    text-decoration: none;
+    color: rgb(97, 1, 1);
+    font-weight: 400;
+    font-size:0.8rem;
+    
+}
+.arrival-item-content a:hover{
+    color: #000;
+}
+.featured-list{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(15rem,1fr));
+    gap: 1rem;
+    list-style: none;
+}
+.featured-items{
+    height: 16rem;
+    width: 16rem;
+    overflow: hidden;
+    background: #ffffff;
+    padding: 1rem;
+    transition: all 1000ms ease;
+}
+.featured-items:hover{
+    background: rgb(228, 228, 228);
+    border-radius: 16px;
+    box-shadow: 2px 2px 3px #000;
+}
+.featured-items-image{
+    height: 10rem;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.featured-items-content h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.featured-items-content a{
+    text-decoration: none;
+    color: rgb(97, 1, 1);
+    font-weight: 400;
+    font-size:0.8rem;
+}
+.featured-items-content a:hover{
+    color: #000;
+}
+.link-view{
+    margin-top: 6rem;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: 400;
+}
+.link-view a{
+    text-decoration: underline;
+    color: rgb(66, 2, 2);
+}
+.link-view a:hover{
+    color: #000;
+}
+.foot{
+        background: #e2e2e2;
+    }
+    .foot .links{
+        display: flex;
+        gap: 16rem;
+
+    }
+    .quick-links{
+        margin-left: 20rem;
+    }
+    .quick-links h2, .contacts h2{
+        font-size: 1.4rem;
+        color: rgb(49, 19, 19);
+    }
+    .nav-links a{
+        display:block;
+        text-decoration: none;
+        color: #000;
+        font-size: 0.8rem;
+        padding-bottom: 0.8rem;
+    }
+    .nav-links a:hover{
+        color: #1447b6;
+    }
+    .contacts h4{
+        font-size: 0.9rem;
+        font-weight: 400;
+
+    }
+    .contacts h5{
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+    .contacts a{
+        text-decoration: none;
+        color: #1447b6;
+        font-size: 0.8rem;
+        font-style: italic;
+    }
+    h6{
+        font-weight: 500;
+        font-size: 0.6rem;
+        text-align: center;
+        padding-bottom: 2rem;
+        cursor: pointer;
+        color: gray;
+    }
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    .hero{
+        height: 60vh;
+    }
+    .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .top .name {
+        margin-bottom: 1rem;
+    }
+
+    .navbar {
+        display: none;
+        flex-direction: column;
+        background: rgba(83, 32, 32, 0.9);
+        width: 100%;
+        position: absolute;
+        top: 4rem;
+        padding: 1rem 0;
+    }
+    .navbar a{
+        padding: 0.8rem 1rem;
+        font-size: 1rem;
+        color: white;
+    }
+    #menu-icon{
+        display: block;
+        text-align: center;
+        top: 1.2rem;
+        right: 1.2rem;
+        z-index: 1000;
+    }
+    .navbar.show{
+        display: flex;
+    }
+    .top{
+        display: flex;
+    }
+    .top .name h2{
+        font-size: 1.2rem;
+    }
+
+
+    .hero-body h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
+    .hero-body p {
+        text-align: center;
+        font-size: 1rem;
+        padding: 0 1rem;
+    }
+
+    .btn {
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        margin-left: 6rem;
+    }
+
+    .arrival-items,
+    .featured-items {
+        width: 50%;
+    }
+
+    .arrivals-list,
+    .featured-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0;
+    }
+
+    
+}
+

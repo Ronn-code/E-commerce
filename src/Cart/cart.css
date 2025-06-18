@@ -1,0 +1,116 @@
+.product-cart{
+    margin-left: 20%;
+    margin-top: 6%;
+    display: flex;
+    gap: 2rem;
+    font-family: 'inter';
+}
+.product-image{
+    margin-left: 2rem;
+}
+.product-image img{
+    margin-top: 2rem;
+}
+.product-image h4{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left: 50%;
+}
+.product-image a{
+    text-decoration: none;
+    color: #000;
+}
+.product-details{
+    margin-left: 2rem;
+    padding-top: 4rem;
+}
+.product-details h2{
+    font-size: 1.4rem;
+    font-weight: 550;
+}
+.product-details h4{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: #000;
+}
+.product-details h6{
+    font-size: 0.6rem;
+    font-weight: 300;
+    color: gray;
+}
+.sizes{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.size{
+    background: rgb(212, 210, 210);
+    height: 1.8rem;
+    width: 3rem;
+    color: #000;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 300ms ease;
+    
+}
+.size.selected {
+  background-color: rgb(97, 1, 1);
+  color: #fff;
+  border: 1px solid rgb(97, 1, 1);
+}
+.size.selected h4{
+    color: white;
+}
+.size:hover{
+    border:2px solid rgb(97, 1, 1);
+    color: white;
+    background: rgb(97, 1, 1);
+}
+.size h4{
+    margin-top: 0.5rem;
+}
+.quantity{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    border: 2px solid rgb(212, 210, 210);
+    width: 24%;
+    height: 2.6rem;
+    border-radius: 8px;
+    padding-left: 1.8rem;
+}
+.quantity span{
+    color: #525252;
+    cursor: pointer;
+    
+}
+.quantity h5{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.buttons{
+   margin-top: 2rem;
+}
+#cart-btn{
+    height: 3rem;
+    width: 60%;
+    background: none;
+    border: 2px solid #000;
+    color: #525252;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+    transition: all 300ms ease;
+}
+#cart-btn:hover,#buy-btn:hover{
+   box-shadow: 2px 2px 10px #000;
+}
+#buy-btn{
+    height: 3rem;
+    width: 60%;
+    background: rgb(97, 1, 1);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    transition: all 300ms ease;
+}
+

@@ -1,0 +1,53 @@
+.airforce-container{
+    font-family: 'inter';
+    display: grid;
+    grid-template-columns: 16rem auto;
+}
+aside{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.airforce-container h2{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.sneaker-list{
+    list-style: none;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.sneaker-list li{
+    height: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000;
+    
+}
+.sneaker-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sneaker-list li:hover{
+    color: rgb(83,32,32);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+
+main{
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.navbar{
+    margin-left: 20%;
+}
+.navbar a{
+    color: #000;
+    text-decoration: none;
+}
+.navbar .active{
+    color: rgb(83,32,32);
+    font-size: 1.3rem;
+}

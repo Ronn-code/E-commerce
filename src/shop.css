@@ -1,0 +1,83 @@
+.shop-container{
+    font-family: 'inter';
+    display: grid;
+    grid-template-columns: 16rem auto;
+}
+aside{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.shop-container h2{
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.sneaker-list{
+    list-style: none;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+.sneaker-list li{
+    height: 1.8rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #000;
+    
+}
+.sneaker-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.sneaker-list li:hover{
+    color: rgb(83,32,32);
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+main{
+    margin-left: 0rem;
+    margin-top: 2rem;
+}
+.navbar{
+    margin-left: 20%;
+}
+.navbar a{
+    color: #000;
+    text-decoration: none;
+}
+.navbar .active{
+    color: rgb(83,32,32);
+    font-size: 1.3rem;
+}
+.product-list{
+    display: flex;
+    gap: 0.2rem;
+    width: 90%;
+    list-style: none;
+    margin-top: 2rem;
+}
+.list-items{
+    padding: 0.8rem;
+    background: #fff;
+    transition: 0.6s;
+}
+.list-items:hover{
+    background: rgb(228, 228, 228);
+    border-radius: 16px;
+    box-shadow: 1px 1px 2px #000;   
+}
+.list-items img{
+    border-radius: 10px;
+    width: 90%;
+    
+}
+.list-items-content h4{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+.list-items-content a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: rgb(97,1,1);
+}
