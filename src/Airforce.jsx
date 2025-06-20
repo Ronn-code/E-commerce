@@ -1,7 +1,7 @@
 import './airforce.css';
 import {Link} from 'react-router-dom';
 import black from './images/air-black.jpg';
-import blue from './images/air-blue.jpg';
+import blue from './images/Air-blue.jpg';
 import green from './images/air-green.jpg';
 import cream from './images/air-cream.jpg';
 import white from './images/air-white.jpg';
