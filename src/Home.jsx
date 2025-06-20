@@ -1,4 +1,5 @@
 import {Link} from 'react-router-dom';
+import { useState } from 'react';
 import j3 from'./images/j3.jpg';
 import campusb from './images/campusbrown.jpg';
 import j1 from './images/j1.jpg';
@@ -8,6 +9,8 @@ import speedcat from './images/speedcat.jpg';
 
 
 function Home(){
+
+    const [showNavbar, setShowNavbar] = useState(false);
     return(
         <div className="container">
             <div className="hero">
@@ -15,14 +18,16 @@ function Home(){
                     <div className="name">
                         <h2><span className="material-icons-sharp">fitbit</span>ModaWalk</h2>
                     </div>
-                    <div className="navbar">
+                    <div className={`navbar ${showNavbar ? 'show' : ''}`}>
                         <a href="#">Home</a>
                         <Link to='/shop'>Shop</Link>
-                        <a href="#">Categories</a>
-                        <a href="#">Contact</a>
+                        <a href="/airforce ">Collection</a>
+                        <a href="/contact">Contact</a>
                     </div>
                     <div className="icons">
-                        <span className="material-icons-sharp"id="menu-icon">Menu</span>
+                        <span className="material-icons-sharp"
+                              id="menu-icon"
+                              onClick={() => setShowNavbar(!showNavbar)}>menu</span>
                         <span className="material-icons-sharp">shopping_cart</span>
                         <span className="material-icons-sharp">person</span>
                     </div>
