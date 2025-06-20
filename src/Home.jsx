@@ -21,8 +21,8 @@ function Home(){
                     <div className={`navbar ${showNavbar ? 'show' : ''}`}>
                         <a href="#">Home</a>
                         <Link to='/shop'>Shop</Link>
-                        <a href="/airforce ">Collection</a>
-                        <a href="/contact">Contact</a>
+                        <Link to="/airforce ">Collection</Link>
+                        <Link to="/contact">Contact</Link>
                     </div>
                     <div className="icons">
                         <span className="material-icons-sharp"
@@ -62,7 +62,7 @@ function Home(){
                         </div>
                         <div className='arrival-item-content'>
                             <h4>Jordan 4 Seaform</h4>
-                            <a href='/product21'>Kshs.3500</a>
+                            <Link to='/product21'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='arrival-items'>
@@ -71,7 +71,7 @@ function Home(){
                         </div>
                         <div className='arrival-item-content'>
                             <h4>Adida Campus brown</h4>
-                            <a href='/product26'>Kshs.3500</a>
+                            <Link to='/product26'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='arrival-items'>
@@ -80,7 +80,7 @@ function Home(){
                         </div>
                         <div className='arrival-item-content'>
                             <h4>Adidas Puma speedcat</h4>
-                            <a href='/product22'>Kshs.3000</a>
+                            <Link to='/product22'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='arrival-items'>
@@ -89,7 +89,7 @@ function Home(){
                         </div>
                         <div className='arrival-item-content'>
                             <h4>Jordan 3 balvin sunset</h4>
-                            <a href='/product23'>Kshs.3200</a>
+                            <Link to='/product23'>Kshs.3200</Link>
                         </div>
                     </li>
                 </ul>
@@ -103,7 +103,7 @@ function Home(){
                         </div>
                         <div className="featured-items-content">
                             <h4>Adidas Campus brown</h4>
-                            <a href='/product26'>Kshs.3500</a>
+                            <Link to='/product26'>Kshs.3500</Link>
                         </div>
                     </li>
                      <li className='featured-items'>
@@ -112,7 +112,7 @@ function Home(){
                         </div>
                         <div className="featured-items-content">
                             <h4>Jordan 1 highcuts</h4>
-                            <a href='/product24'>Kshs.3500</a>
+                            <Link to='/product24'>Kshs.3500</Link>
                         </div>
                     </li>
                      <li className='featured-items'>
@@ -121,11 +121,11 @@ function Home(){
                         </div>
                         <div className="featured-items-content">
                             <h4>Nike SB Dunks</h4>
-                            <a href='/product25'>Kshs.3500</a>
+                            <Link to='/product25'>Kshs.3500</Link>
                         </div>
                     </li>
                     <div className='link-view'>
-                        <a href='/airforce'>View All</a>
+                        <Link to='/airforce'>View All</Link>
                     </div>
                 </ul>
             </div>
@@ -135,8 +135,8 @@ function Home(){
                         <h2>Quick Links</h2>
                         <nav className='nav-links'>
                             <a href='/'>Home</a>
-                            <a href='/shop'>Collection</a>
-                            <a href='#'>Contact</a>
+                            <Link to='/shop'>Collection</Link>
+                            <Link to='/contact'>Contact</Link>
                             <a href='#'>Support</a>
                             <a href='#'>Private policy</a>
                         </nav>

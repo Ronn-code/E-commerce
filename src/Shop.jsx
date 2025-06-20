@@ -39,7 +39,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Nike Air Vodoo</h4>
-                            <a href='/product17'>Kshs.3000</a>
+                            <Link to='/product17'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -48,7 +48,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Airforce Bapestar</h4>
-                            <a href='/product19'>Kshs.2500</a>
+                            <Link to='/product19'>Kshs.2500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -57,7 +57,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Puma black</h4>
-                            <a href='/product15'>Kshs.3500</a>
+                            <Link to='/product15'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -66,7 +66,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Campus green</h4>
-                            <a href='/product13'>Kshs.3500</a>
+                            <Link to='/product13'>Kshs.3500</Link>
                         </div>
                     </li>
                 </ul>
@@ -77,7 +77,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Cactus Jordan 4</h4>
-                            <a href='/product18'>Kshs.3500</a>
+                            <Link to='/product18'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -86,7 +86,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Nike Sb Dunks</h4>
-                            <a href='/product14'>Kshs.3500</a>
+                            <Link to='/product14'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -95,7 +95,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Vans Rubbers</h4>
-                            <a href='/product16'>Kshs.2500</a>
+                            <Link to='/product16'>Kshs.2500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -104,7 +104,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Nike Airmax 90</h4>
-                            <a href='/product20'>Kshs.3000</a>
+                            <Link to='/product20'>Kshs.3000</Link>
                         </div>
                     </li>
                 </ul>
@@ -115,7 +115,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Vodoo</h4>
-                            <a href='/product17'>Kshs.3000</a>
+                            <Link to='/product17'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -124,7 +124,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Airforce Bapestar</h4>
-                            <a href='/product19'>Kshs.2500</a>
+                            <Link to='/product19'>Kshs.2500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -133,7 +133,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Puma black</h4>
-                            <a href='/product15'>Kshs.3500</a>
+                            <Link to='/product15'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -142,7 +142,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Campus green</h4>
-                            <a href='/product13'>Kshs.3500</a>
+                            <Link to='/product13'>Kshs.3500</Link>
                         </div>
                     </li>
                 </ul>

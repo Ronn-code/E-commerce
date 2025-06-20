@@ -42,7 +42,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 black</h4>
-                            <a href='/product2'>Kshs.2500</a>
+                            <Link to='/product2'>Kshs.2500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -51,7 +51,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 suede maroon</h4>
-                            <a href='/product12'>Kshs.3000</a>
+                            <Link to='/product12'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -60,7 +60,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 white</h4>
-                            <a href='/product10'>Kshs.2500</a>
+                            <Link to='/product10'>Kshs.2500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -69,7 +69,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 green</h4>
-                            <a href='/product5'>Kshs.3000</a>
+                            <Link to='/product5'>Kshs.3000</Link>
                         </div>
                     </li>
                 </ul>
@@ -80,7 +80,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce tiffany green</h4>
-                            <a href='/product1'>Kshs.3000</a>
+                            <Link to='/product1'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -89,7 +89,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce suede cream</h4>
-                            <a href='/product6'>Kshs.3500</a>
+                            <Link to='/product6'>Kshs.3500</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -98,7 +98,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 grey</h4>
-                            <a href='/product11'>Kshs.3000</a>
+                            <Link to='/product11'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -107,7 +107,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 black/white</h4>
-                            <a href='/product9'>Kshs.3000</a>
+                            <Link to='/product9'>Kshs.3000</Link>
                         </div>
                     </li>
                 </ul>
@@ -118,7 +118,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 cream</h4>
-                            <a href='/product4'>Kshs.3000</a>
+                            <Link to='/product4'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -127,7 +127,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 grey/black</h4>
-                            <a href='/product8'>Kshs.3000</a>
+                            <Link to='/product8'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -136,7 +136,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce tiffany black</h4>
-                            <a href='/product7'>Kshs.3000</a>
+                            <Link to='/product7'>Kshs.3000</Link>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -145,7 +145,7 @@ function Airforce(){
                         </div>
                         <div className="list-items-content">
                             <h4>Airforce 1 blue</h4>
-                            <a href='/product3'>Kshs.3000</a>
+                            <Link to='/product3'>Kshs.3000</Link>
                         </div>
                     </li>
                 </ul>
