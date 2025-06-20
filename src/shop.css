@@ -39,14 +39,14 @@ main{
     margin-left: 0rem;
     margin-top: 2rem;
 }
-.navbar{
+.navbarr{
     margin-left: 20%;
 }
-.navbar a{
+.navbarr a{
     color: #000;
     text-decoration: none;
 }
-.navbar .active{
+.navbarr .active{
     color: rgb(83,32,32);
     font-size: 1.3rem;
 }
@@ -55,6 +55,7 @@ main{
     gap: 0.2rem;
     width: 90%;
     list-style: none;
+    padding-top: 0.2rem;
     margin-top: 2rem;
 }
 .list-items{
@@ -80,4 +81,80 @@ main{
     text-decoration: none;
     font-size: 0.8rem;
     color: rgb(97,1,1);
+}
+
+
+/*---------------------MEDIA QUERIES-----------------------*/
+
+
+@media only screen and (max-width: 600px) {
+  .shop-container {
+    display: block;
+    padding: 1rem;
+  }
+
+  aside {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  .sneaker-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 0;
+  }
+
+  .sneaker-list li {
+    font-size: 0.9rem;
+    height: auto;
+    
+  }
+
+  main {
+    margin: 0;
+  }
+
+  .product-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+    padding-top: 6rem;
+    padding-left: 0.8rem;
+    align-items: center;
+  }
+  .list-items {
+    width: 90%;
+    padding: 0.6rem;
+    margin-left: 0;
+  }
+
+  .list-items img {
+    width: 100%;
+  }
+
+  .list-items-content h4 {
+    font-size: 1rem;
+  }
+
+  .list-items-content a {
+    font-size: 0.9rem;
+  }
+
+  .navbarr {
+    margin-left: 0;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-top: 1rem;
+  }
+
+  .navbarr a {
+    font-size: 1rem;
+  }
+
+  .navbarr .active {
+    font-size: 1.2rem;
+  }
 }

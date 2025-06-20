@@ -28,7 +28,7 @@ function Shop(){
                 </ul>
             </aside>
             <main>
-                <div className="navbar">
+                <div className="navbarr">
                     <Link to='/'>Home /</Link>
                     <a href='#'className='active'>collection</a>
                 </div>
@@ -115,7 +115,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Vodoo</h4>
-                            <a href='#'>Kshs.3000</a>
+                            <a href='/product17'>Kshs.3000</a>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -124,7 +124,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Airforce Bapestar</h4>
-                            <a href='#'>Kshs.2500</a>
+                            <a href='/product19'>Kshs.2500</a>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -133,7 +133,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Puma black</h4>
-                            <a href='#'>Kshs.3500</a>
+                            <a href='/product15'>Kshs.3500</a>
                         </div>
                     </li>
                     <li className='list-items'>
@@ -142,7 +142,7 @@ function Shop(){
                         </div>
                         <div className='list-items-content'>
                             <h4>Adidas Campus green</h4>
-                            <a href='#'>Kshs.3500</a>
+                            <a href='/product13'>Kshs.3500</a>
                         </div>
                     </li>
                 </ul>

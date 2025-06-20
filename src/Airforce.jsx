@@ -31,7 +31,7 @@ function Airforce(){
                 </ul>
             </aside>
             <main>
-                <div className="navbar">
+                <div className="navbarr">
                     <Link to='/shop'>Shop /</Link>
                     <a href='#'className='active'>Airforce</a>
                 </div>
