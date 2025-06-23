@@ -11,5 +11,5 @@ An elegant e-commerce website for stylish shoes and fashion.
 1. Clone the repo:
    ```bash
    git clone https://github.com/your-username/modawalk.git
-contact me ronnthedeveloper@gmail.com 
+contact me ronnthecoder@gmail.com 
 
