@@ -33,10 +33,11 @@
     font-weight: 500;
     color: #000;
 }
-.product-details h6{
-    font-size: 0.6rem;
-    font-weight: 300;
+.product-cart h6{
+    font-size: 0.7rem;
+    font-weight: 400;
     color: gray;
+    margin-left: 0rem ;
 }
 .sizes{
     display: flex;
