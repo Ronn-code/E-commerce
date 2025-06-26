@@ -55,7 +55,7 @@ function Product1(){
                 </div>
                 <div className="buttons">
                     <button id='cart-btn'>Add to Cart</button><br></br>
-                    <a  href={`https://wa.me/254718671212?text=Hi,%20I'm%20interested%20in%20buying%20this%20${name}.%20I%20want%20Size%20${selectedSize}%20and%20Quantity%20${quantity}.%20Here%20is%20the%20image:%20https://yourdomain.com/images/tiff-green-cart.jpg`}
+                    <a  href={`https://wa.me/254718671212?text=Hi,%20I'm%20interested%20in%20buying%20this%20${name}.%20I%20want%20Size%20${selectedSize}%20and%20Quantity%20${quantity}.%20Here%20is%20the%20image:%20https://e-commerce-nu-snowy-48.vercel.app//images/tiff-green-cart.jpg`}
                         target="_blank"
                         rel="noopener noreferrer">
                     <button id='buy-btn'>Buy Now</button></a>
