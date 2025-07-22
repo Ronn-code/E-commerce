@@ -18,7 +18,8 @@ function Shop(){
                 <ul className='sneaker-list'>
                     <Link to="/airforce">
                     <li>Airforce</li></Link>
-                    <li>Retro Dunks</li>
+                    <Link to="/retro">
+                    <li>Retro Dunks</li></Link>
                     <li>Jordans</li>
                     <li>Airmax</li>
                     <li>Converse/Vans</li>

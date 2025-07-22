@@ -21,7 +21,8 @@ function Airforce(){
                 <h2>Sneakers Collection</h2>
                 <ul className='sneaker-list'>
                     <li>Airforce</li>
-                    <li>Retro Dunks</li>
+                    <Link to="/retro">
+                    <li>Retro Dunks</li></Link>
                     <li>Jordans</li>
                     <li>Airmax</li>
                     <li>Converse/Vans</li>

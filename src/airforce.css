@@ -1,4 +1,4 @@
-.airforce-container{
+.airforce-container,.retro-container{
     font-family: 'inter';
     display: grid;
     grid-template-columns: 16rem auto;
@@ -7,7 +7,8 @@ aside{
     margin-top: 2rem;
     margin-left: 2rem;
 }
-.airforce-container h2{
+.airforce-container h2,
+.retro-container h2{
     margin-top: 2rem;
     font-size: 1.2rem;
     font-weight: 400;
